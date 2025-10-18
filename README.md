@@ -1,2 +1,15 @@
-# 3d-printer-timelapse-creator
-Python tool for creating 3D printing timelapses. Features desktop GUI, CLI script, and OrcaSlicer integration. Captures high-res images via printer triggers, keyboard shortcuts, or automatic layer changes. Perfect for content creators and 3D printing enthusiasts.
+# OrcaSlicer Post-Processing Script
+
+Adds timelapse capture commands to G-code for automatic layer change detection.
+
+## Setup
+
+1. In OrcaSlicer, go to Print Settings → Output Options
+2. Set Post-processing Scripts to this file
+3. Save settings
+
+## How It Works
+
+- Adds "M118 Smile" command before each layer change
+- Printer sends "Smile" message when reaching these commands
+- Main application captures screenshot on "Smile" detection

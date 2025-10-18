@@ -1,2 +1,15 @@
-# 3d-printer-timelapse-creator
-Python tool for creating 3D printing timelapses. Features desktop GUI, CLI script, and OrcaSlicer integration. Captures high-res images via printer triggers, keyboard shortcuts, or automatic layer changes. Perfect for content creators and 3D printing enthusiasts.
+# CLI Timelapse Script
+
+Command-line interface for automated 3D printing timelapse capture.
+
+## Features
+
+- Automated image capture on printer triggers
+- Keyboard shortcut support
+- Configurable camera settings
+- Logging system
+
+## Installation
+
+```bash
+pip install -r requirements.txt
